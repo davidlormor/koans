@@ -73,7 +73,6 @@ class AboutHashes < Neo::Koan
     assert_equal true, hash != new_hash
 
     expected = { "jim" => 54, "amy" => 20, "dan" => 23, "jenny" => 26 }
-    puts new_hash
     assert_equal true, expected == new_hash
   end
 
