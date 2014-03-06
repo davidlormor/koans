@@ -123,6 +123,8 @@ class AboutIteration < Neo::Koan
   # When you get to the "AboutSandwichCode" koan, recheck your answer.
   #
   # Passing the file in a block automatically closes the File object
-  # after usage.
+  # after usage.  This is also a more efficient way of operating on 
+  # the file, as we're abstracting the opening and closing of the file
+  # to its object methods.
 
 end
